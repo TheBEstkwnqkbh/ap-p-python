@@ -1,0 +1,26 @@
+[
+  {
+    "expression": "memory",
+    "result": 0.0
+  },
+  {
+    "expression": "e",
+    "result": 2.718281828459045
+  },
+  {
+    "expression": "ans",
+    "result": 2.718281828459045
+  },
+  {
+    "expression": "pi",
+    "result": 3.141592653589793
+  },
+  {
+    "expression": "e",
+    "result": 2.718281828459045
+  },
+  {
+    "expression": "5*8",
+    "result": 40.0
+  }
+]
