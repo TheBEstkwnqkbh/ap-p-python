@@ -138,3 +138,54 @@ words[1] = "Word 5"
 length = len(words)
 print(words)
 print(length)
+
+# ITERATION
+
+# For Loop
+# A for loop will iterate over a RANGE.
+# A range is a range of numbers. 
+# # range(stop), range(start, stop), range( start, stop, step)
+print()
+for i in range(5):
+    print(i)
+
+animals = ["Sheep", "Deer", "Moose"]
+print(f"List: {animals}")
+
+for animal in animals:
+    print(f"We saw {animal}")
+
+nums = [5.1, 2.2, 5.3, 3.4, 8.5, 9.9]
+
+# for n in nums:
+#     print(n + 1)
+#write a for loop to print each value in list nums
+
+for i in range(len(nums)):
+    print(nums[i])
+
+# Debugging
+print(len(nums))
+print(range(5))
+
+# for i in range(0,5):
+#     print(nums[i])
+
+# while loop
+
+# iteratues while a condition is true
+# when the condition becomes false, it stops
+
+x = 1
+
+while x <= 70:
+    print(x)
+    x+=1
+
+f=False
+t=True
+
+
+while t or f:
+    print(hi)
+
