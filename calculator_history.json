@@ -22,5 +22,17 @@
   {
     "expression": "5*8",
     "result": 40.0
+  },
+  {
+    "expression": "7*8",
+    "result": 56.0
+  },
+  {
+    "expression": "771*811",
+    "result": 625281.0
+  },
+  {
+    "expression": "19898381/9193",
+    "result": 2164.514413140433
   }
 ]
