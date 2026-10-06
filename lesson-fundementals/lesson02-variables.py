@@ -65,8 +65,4 @@ print("Before swap:\nnum:\t", num, "\ny:\t", y)
 temp = num
 num = y
 y = temp
-print("num:\t", num, "\ny:\t", y)
-# Given variables num = 4 and y = "hello".  
-# Swap the values so that x = "hello" and y = 4. 
-# Use a temporary variable.  
-# Hint: You will need to create one new variable. 
+print("After swap:\nnum:\t", num, "\ny:\t", y)
