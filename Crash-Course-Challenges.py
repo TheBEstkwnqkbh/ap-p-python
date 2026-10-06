@@ -2,14 +2,14 @@ import math
 
 # Speeding fine calculator
 speed_limit = 55
-speed = 100
+speed = 55
 
-if speed > speed_limit + 1 < 10:
-    fine = 50
-elif speed > speed_limit + 11 < 10:
-    fine = 100
-elif speed > speed_limit + 21:
+if speed > speed_limit + 30:
     fine = 250
+elif speed > speed_limit + 20:
+    fine = 100
+elif speed > speed_limit + 10:
+    fine = 50
 else:
     fine = 0
 
@@ -49,8 +49,10 @@ print(counter, "out of", len(grades), "students passed")
 
 
 # Rocket launch countdown
+import time
 lancher = [10, 9, 8, 7, 6, 5, 4, 3, 2, 1, 0]
 for rocket in lancher:
+    time.sleep(1)
     if rocket == 0:
         print("Blastoff!")
         break 
@@ -60,13 +62,13 @@ for rocket in lancher:
 
 
 #Temperature Converter
-fahrenheit = 100
-celsius = (fahrenheit / 9/5) + 32
-print(f"{fahrenheit}°C is equal to {celsius}°F")
+fahrenheit = 50
+celsius = (fahrenheit - 32) * 5/9
+print(f"{fahrenheit}°F is equal to {celsius}°C")
 
 
 #Report Card
-score = 84
+score = 74
 
 if score >= 90:
     print("A")
@@ -85,7 +87,6 @@ else:
 
 password = "csaea2026"
 attempt = "CSAEA2026"
-
 
 if attempt == password:
     print("Access granted")
