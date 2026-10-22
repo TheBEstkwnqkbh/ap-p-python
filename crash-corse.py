@@ -186,6 +186,6 @@ f=False
 t=True
 
 
-while t or f:
-    print(hi)
+# while t or f:
+#     print("hi")
 
