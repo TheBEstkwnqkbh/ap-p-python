@@ -184,8 +184,3 @@ while x <= 70:
 
 f=False
 t=True
-
-
-# while t or f:
-#     print("hi")
-
