@@ -42,6 +42,52 @@ print(letter_list)
 # Use a for-loop to find the sum of numbers from 1 to 10.
 # ie, 1 + 2 + 3 + 4 + 5 + 6 + 7 + 8 + 9 + 10
 # Expected output: 55
+# initialize a variable to hold the total
+print()
+total = 0
+for i in range(1,11):
+    total = total + i
 
-for nums in range(0, 10):
-    
+print(total)
+
+# A while-loop repeats *while* a condition is true.
+# If you forget to change the condition, it loops forever.
+# And then your program becomes immortal. Avoid that.
+
+# += to add to a variable, -= to subtract to a variable, = to overright 
+
+count = 0 
+
+while count < 5:
+    print(f"Loopin' -- We are on loop index # {count}")
+    count += 1
+    time.sleep(0.5)
+
+# Example with user input 
+
+user_input = ""
+while user_input != "exit":
+    user_input = input("Type 'exit' to escape")
+
+# Loop Control Statements
+pass 
+for i in range(1,11):
+
+    if i == 3: 
+        print("Skipping 3")
+        continue # skips this iteration
+    if i == 6:
+        print("Breaking at 6")
+        break # stop the loop entirely
+    if i == 9:
+        pass # place holder. does nothing. will code in the future
+
+    print("Number", i)
+
+# Challenge 2: Guess Until Correct
+# Create a while-loop that keeps asking for a number until the user types 7.
+
+user_number = 0
+while user_number != 7:
+    user_number = int(input("Guess the number: "))
+print("You guessed it!")
